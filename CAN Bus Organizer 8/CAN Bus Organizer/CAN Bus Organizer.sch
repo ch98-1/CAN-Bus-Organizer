@@ -1,0 +1,273 @@
+EESchema Schematic File Version 4
+LIBS:CAN Bus Organizer-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "CAN Bus Organizer 8"
+Date "2018-03-17"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J10
+U 1 1 5AADEEC5
+P 5650 2100
+F 0 "J10" H 5623 1980 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 2071 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 2100 50  0001 C CNN
+F 3 "~" H 5650 2100 50  0001 C CNN
+	1    5650 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5AAE2070
+P 5100 2100
+F 0 "J1" H 5206 2278 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 2187 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 2100 50  0001 C CNN
+F 3 "~" H 5100 2100 50  0001 C CNN
+	1    5100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 5AAE27A5
+P 5100 5300
+F 0 "J9" H 5206 5478 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 5387 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 5300 50  0001 C CNN
+F 3 "~" H 5100 5300 50  0001 C CNN
+	1    5100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J18
+U 1 1 5AAE279E
+P 5650 5300
+F 0 "J18" H 5623 5180 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 5271 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 5300 50  0001 C CNN
+F 3 "~" H 5650 5300 50  0001 C CNN
+	1    5650 5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5400 5450 5400
+Wire Wire Line
+	5300 5300 5450 5300
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 5AAE2607
+P 5100 4900
+F 0 "J8" H 5206 5078 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 4987 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 4900 50  0001 C CNN
+F 3 "~" H 5100 4900 50  0001 C CNN
+	1    5100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J17
+U 1 1 5AAE2600
+P 5650 4900
+F 0 "J17" H 5623 4780 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 4871 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 4900 50  0001 C CNN
+F 3 "~" H 5650 4900 50  0001 C CNN
+	1    5650 4900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5000 5450 5000
+Wire Wire Line
+	5300 4900 5450 4900
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5AAE2496
+P 5100 4500
+F 0 "J7" H 5206 4678 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 4587 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 4500 50  0001 C CNN
+F 3 "~" H 5100 4500 50  0001 C CNN
+	1    5100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J16
+U 1 1 5AAE248F
+P 5650 4500
+F 0 "J16" H 5623 4380 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 4471 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 4500 50  0001 C CNN
+F 3 "~" H 5650 4500 50  0001 C CNN
+	1    5650 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4600 5450 4600
+Wire Wire Line
+	5300 4500 5450 4500
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5AAE22DA
+P 5100 4100
+F 0 "J6" H 5206 4278 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 4187 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 4100 50  0001 C CNN
+F 3 "~" H 5100 4100 50  0001 C CNN
+	1    5100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J15
+U 1 1 5AAE22D3
+P 5650 4100
+F 0 "J15" H 5623 3980 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 4071 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 4100 50  0001 C CNN
+F 3 "~" H 5650 4100 50  0001 C CNN
+	1    5650 4100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4200 5450 4200
+Wire Wire Line
+	5300 4100 5450 4100
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5AAE222B
+P 5100 3700
+F 0 "J5" H 5206 3878 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 3787 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 3700 50  0001 C CNN
+F 3 "~" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J14
+U 1 1 5AAE2224
+P 5650 3700
+F 0 "J14" H 5623 3580 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 3671 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 3700 50  0001 C CNN
+F 3 "~" H 5650 3700 50  0001 C CNN
+	1    5650 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3800 5450 3800
+Wire Wire Line
+	5300 3700 5450 3700
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5AAE21AD
+P 5100 3300
+F 0 "J4" H 5206 3478 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 3387 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 3300 50  0001 C CNN
+F 3 "~" H 5100 3300 50  0001 C CNN
+	1    5100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J13
+U 1 1 5AAE21A6
+P 5650 3300
+F 0 "J13" H 5623 3180 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 3271 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 3300 50  0001 C CNN
+F 3 "~" H 5650 3300 50  0001 C CNN
+	1    5650 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3400 5450 3400
+Wire Wire Line
+	5300 3300 5450 3300
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5AAE2158
+P 5100 2900
+F 0 "J3" H 5206 3078 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 2987 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 2900 50  0001 C CNN
+F 3 "~" H 5100 2900 50  0001 C CNN
+	1    5100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J12
+U 1 1 5AAE2151
+P 5650 2900
+F 0 "J12" H 5623 2780 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 2871 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 2900 50  0001 C CNN
+F 3 "~" H 5650 2900 50  0001 C CNN
+	1    5650 2900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3000 5450 3000
+Wire Wire Line
+	5300 2900 5450 2900
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5AAE211E
+P 5100 2500
+F 0 "J2" H 5206 2678 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 2587 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5100 2500 50  0001 C CNN
+F 3 "~" H 5100 2500 50  0001 C CNN
+	1    5100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J11
+U 1 1 5AAE2117
+P 5650 2500
+F 0 "J11" H 5623 2380 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 2471 50  0000 R CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Straight_43045-0228" H 5650 2500 50  0001 C CNN
+F 3 "~" H 5650 2500 50  0001 C CNN
+	1    5650 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2600 5450 2600
+Wire Wire Line
+	5300 2500 5450 2500
+Wire Wire Line
+	5300 2100 5450 2100
+Wire Wire Line
+	5300 2200 5450 2200
+$Comp
+L Mechanical:Mounting_Hole MK1
+U 1 1 5AAE13DA
+P 5350 1700
+F 0 "MK1" H 5450 1746 50  0000 L CNN
+F 1 "Mounting_Hole" H 5450 1655 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 5350 1700 50  0001 C CNN
+F 3 "" H 5350 1700 50  0001 C CNN
+	1    5350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK2
+U 1 1 5AAE1488
+P 5350 5650
+F 0 "MK2" H 5450 5696 50  0000 L CNN
+F 1 "Mounting_Hole" H 5450 5605 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 5350 5650 50  0001 C CNN
+F 3 "" H 5350 5650 50  0001 C CNN
+	1    5350 5650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
