@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../CAN Bus Organizer 8 Gerber/"))
+      (outputdirectory "../CAN Bus Organizer 8 Gerber/"))
   )
 
   (net 0 "")
